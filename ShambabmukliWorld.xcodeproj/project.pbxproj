@@ -14,6 +14,8 @@
 		BEF30B592C8990E2009A810C /* ShambabmukliWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B582C8990E2009A810C /* ShambabmukliWorldTests.swift */; };
 		BEF30B632C8990E2009A810C /* ShambabmukliWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B622C8990E2009A810C /* ShambabmukliWorldUITests.swift */; };
 		BEF30B652C8990E2009A810C /* ShambabmukliWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B642C8990E2009A810C /* ShambabmukliWorldUITestsLaunchTests.swift */; };
+		BEF30B722C8998D3009A810C /* WorldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B712C8998D3009A810C /* WorldViewModel.swift */; };
+		BEF30B772C899926009A810C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B762C899926009A810C /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BEF30B5E2C8990E2009A810C /* ShambabmukliWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShambabmukliWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF30B622C8990E2009A810C /* ShambabmukliWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShambabmukliWorldUITests.swift; sourceTree = "<group>"; };
 		BEF30B642C8990E2009A810C /* ShambabmukliWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShambabmukliWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF30B712C8998D3009A810C /* WorldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewModel.swift; sourceTree = "<group>"; };
+		BEF30B762C899926009A810C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 		BEF30B462C8990E0009A810C /* ShambabmukliWorld */ = {
 			isa = PBXGroup;
 			children = (
-				BEF30B472C8990E0009A810C /* ShambabmukliWorldApp.swift */,
-				BEF30B492C8990E0009A810C /* ContentView.swift */,
+				BEF30B742C8998F2009A810C /* Model */,
+				BEF30B752C8998FB009A810C /* ViewModel */,
+				BEF30B732C8998EB009A810C /* View */,
 				BEF30B4B2C8990E2009A810C /* Assets.xcassets */,
 				BEF30B4D2C8990E2009A810C /* Preview Content */,
 			);
@@ -125,6 +130,31 @@
 				BEF30B642C8990E2009A810C /* ShambabmukliWorldUITestsLaunchTests.swift */,
 			);
 			path = ShambabmukliWorldUITests;
+			sourceTree = "<group>";
+		};
+		BEF30B732C8998EB009A810C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEF30B472C8990E0009A810C /* ShambabmukliWorldApp.swift */,
+				BEF30B492C8990E0009A810C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEF30B742C8998F2009A810C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEF30B762C899926009A810C /* Cell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF30B752C8998FB009A810C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEF30B712C8998D3009A810C /* WorldViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF30B4A2C8990E0009A810C /* ContentView.swift in Sources */,
+				BEF30B772C899926009A810C /* Cell.swift in Sources */,
+				BEF30B722C8998D3009A810C /* WorldViewModel.swift in Sources */,
 				BEF30B482C8990E0009A810C /* ShambabmukliWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
