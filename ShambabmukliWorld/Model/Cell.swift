@@ -13,6 +13,17 @@ enum CellState: String {
     case life
 }
 
-struct Cell: Hashable {
+struct Cell {
     var state: CellState
+
+    func toCellViewModal() -> CellViewModal {
+        switch state {
+        case .alive:
+            return aliveCell
+        case .dead:
+            return deadCell
+        case .life:
+            return lifeCell
+        }
+    }
 }
