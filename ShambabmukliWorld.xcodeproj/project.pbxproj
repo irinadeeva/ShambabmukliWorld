@@ -11,29 +11,11 @@
 		BEF30B4A2C8990E0009A810C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B492C8990E0009A810C /* ContentView.swift */; };
 		BEF30B4C2C8990E2009A810C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF30B4B2C8990E2009A810C /* Assets.xcassets */; };
 		BEF30B4F2C8990E2009A810C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF30B4E2C8990E2009A810C /* Preview Assets.xcassets */; };
-		BEF30B592C8990E2009A810C /* ShambabmukliWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B582C8990E2009A810C /* ShambabmukliWorldTests.swift */; };
 		BEF30B722C8998D3009A810C /* WorldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B712C8998D3009A810C /* WorldViewModel.swift */; };
 		BEF30B772C899926009A810C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B762C899926009A810C /* Cell.swift */; };
 		BEF30B792C89F6FB009A810C /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF30B782C89F6FB009A810C /* CellView.swift */; };
 		BEFCE1812C8A35390036E793 /* CellViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCE1802C8A35390036E793 /* CellViewModal.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BEF30B552C8990E2009A810C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEF30B3C2C8990E0009A810C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEF30B432C8990E0009A810C;
-			remoteInfo = ShambabmukliWorld;
-		};
-		BEF30B5F2C8990E2009A810C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEF30B3C2C8990E0009A810C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEF30B432C8990E0009A810C;
-			remoteInfo = ShambabmukliWorld;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BEF30B442C8990E0009A810C /* ShambabmukliWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShambabmukliWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +23,6 @@
 		BEF30B492C8990E0009A810C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEF30B4B2C8990E2009A810C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF30B4E2C8990E2009A810C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BEF30B542C8990E2009A810C /* ShambabmukliWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShambabmukliWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF30B582C8990E2009A810C /* ShambabmukliWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShambabmukliWorldTests.swift; sourceTree = "<group>"; };
-		BEF30B5E2C8990E2009A810C /* ShambabmukliWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShambabmukliWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF30B712C8998D3009A810C /* WorldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewModel.swift; sourceTree = "<group>"; };
 		BEF30B762C899926009A810C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		BEF30B782C89F6FB009A810C /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
@@ -58,20 +37,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF30B512C8990E2009A810C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEF30B5B2C8990E2009A810C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				BEF30B462C8990E0009A810C /* ShambabmukliWorld */,
-				BEF30B572C8990E2009A810C /* ShambabmukliWorldTests */,
 				BEF30B452C8990E0009A810C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				BEF30B442C8990E0009A810C /* ShambabmukliWorld.app */,
-				BEF30B542C8990E2009A810C /* ShambabmukliWorldTests.xctest */,
-				BEF30B5E2C8990E2009A810C /* ShambabmukliWorldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,14 +74,6 @@
 				BEF30B4E2C8990E2009A810C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BEF30B572C8990E2009A810C /* ShambabmukliWorldTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEF30B582C8990E2009A810C /* ShambabmukliWorldTests.swift */,
-			);
-			path = ShambabmukliWorldTests;
 			sourceTree = "<group>";
 		};
 		BEF30B732C8998EB009A810C /* View */ = {
@@ -169,42 +123,6 @@
 			productReference = BEF30B442C8990E0009A810C /* ShambabmukliWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEF30B532C8990E2009A810C /* ShambabmukliWorldTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEF30B6B2C8990E2009A810C /* Build configuration list for PBXNativeTarget "ShambabmukliWorldTests" */;
-			buildPhases = (
-				BEF30B502C8990E2009A810C /* Sources */,
-				BEF30B512C8990E2009A810C /* Frameworks */,
-				BEF30B522C8990E2009A810C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEF30B562C8990E2009A810C /* PBXTargetDependency */,
-			);
-			name = ShambabmukliWorldTests;
-			productName = ShambabmukliWorldTests;
-			productReference = BEF30B542C8990E2009A810C /* ShambabmukliWorldTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BEF30B5D2C8990E2009A810C /* ShambabmukliWorldUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEF30B6E2C8990E2009A810C /* Build configuration list for PBXNativeTarget "ShambabmukliWorldUITests" */;
-			buildPhases = (
-				BEF30B5A2C8990E2009A810C /* Sources */,
-				BEF30B5B2C8990E2009A810C /* Frameworks */,
-				BEF30B5C2C8990E2009A810C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEF30B602C8990E2009A810C /* PBXTargetDependency */,
-			);
-			name = ShambabmukliWorldUITests;
-			productName = ShambabmukliWorldUITests;
-			productReference = BEF30B5E2C8990E2009A810C /* ShambabmukliWorldUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,14 +135,6 @@
 				TargetAttributes = {
 					BEF30B432C8990E0009A810C = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					BEF30B532C8990E2009A810C = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = BEF30B432C8990E0009A810C;
-					};
-					BEF30B5D2C8990E2009A810C = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = BEF30B432C8990E0009A810C;
 					};
 				};
 			};
@@ -242,8 +152,6 @@
 			projectRoot = "";
 			targets = (
 				BEF30B432C8990E0009A810C /* ShambabmukliWorld */,
-				BEF30B532C8990E2009A810C /* ShambabmukliWorldTests */,
-				BEF30B5D2C8990E2009A810C /* ShambabmukliWorldUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,20 +163,6 @@
 			files = (
 				BEF30B4F2C8990E2009A810C /* Preview Assets.xcassets in Resources */,
 				BEF30B4C2C8990E2009A810C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEF30B522C8990E2009A810C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEF30B5C2C8990E2009A810C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,35 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF30B502C8990E2009A810C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEF30B592C8990E2009A810C /* ShambabmukliWorldTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEF30B5A2C8990E2009A810C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BEF30B562C8990E2009A810C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BEF30B432C8990E0009A810C /* ShambabmukliWorld */;
-			targetProxy = BEF30B552C8990E2009A810C /* PBXContainerItemProxy */;
-		};
-		BEF30B602C8990E2009A810C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BEF30B432C8990E0009A810C /* ShambabmukliWorld */;
-			targetProxy = BEF30B5F2C8990E2009A810C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BEF30B662C8990E2009A810C /* Debug */ = {
@@ -496,82 +362,6 @@
 			};
 			name = Release;
 		};
-		BEF30B6C2C8990E2009A810C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BSKM5XY794;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = irinadeeva.ShambabmukliWorldTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShambabmukliWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShambabmukliWorld";
-			};
-			name = Debug;
-		};
-		BEF30B6D2C8990E2009A810C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BSKM5XY794;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = irinadeeva.ShambabmukliWorldTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShambabmukliWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShambabmukliWorld";
-			};
-			name = Release;
-		};
-		BEF30B6F2C8990E2009A810C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BSKM5XY794;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = irinadeeva.ShambabmukliWorldUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ShambabmukliWorld;
-			};
-			name = Debug;
-		};
-		BEF30B702C8990E2009A810C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BSKM5XY794;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = irinadeeva.ShambabmukliWorldUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ShambabmukliWorld;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,24 +379,6 @@
 			buildConfigurations = (
 				BEF30B692C8990E2009A810C /* Debug */,
 				BEF30B6A2C8990E2009A810C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEF30B6B2C8990E2009A810C /* Build configuration list for PBXNativeTarget "ShambabmukliWorldTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BEF30B6C2C8990E2009A810C /* Debug */,
-				BEF30B6D2C8990E2009A810C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEF30B6E2C8990E2009A810C /* Build configuration list for PBXNativeTarget "ShambabmukliWorldUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BEF30B6F2C8990E2009A810C /* Debug */,
-				BEF30B702C8990E2009A810C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
